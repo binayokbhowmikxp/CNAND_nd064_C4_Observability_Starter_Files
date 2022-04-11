@@ -86,8 +86,8 @@ def homepage():
 @endpoint_counter
 def my_api():
         with tracer.start_span('my-api'):
-        answer = "something"
-        return jsonify(response=answer)
+          answer = "something"
+          return jsonify(response=answer)
 
 
 
