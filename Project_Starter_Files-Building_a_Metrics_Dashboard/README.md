@@ -57,14 +57,11 @@ We can use the below key indicators (specific) to measure SLI:
 ![Screenshot 2022-04-12 at 5 09 04 PM](https://user-images.githubusercontent.com/40661295/163056227-c613bd99-b79d-485f-bbe0-fae0c03fba77.png)
 
 
-The same code is as below:
+The sample code is as below:
 
-@app.route("/")
-@endpoint_counter
-def homepage():
-     with tracer.start_active_span('home-page'):
-        answer = "Hello World"
-        return jsonify(response=answer) 
+![Screenshot 2022-04-13 at 2 49 01 AM](https://user-images.githubusercontent.com/40661295/163056521-02420493-7d32-48dc-8281-c20132f4e57e.png)
+
+
 
 ## Jaeger in Dashboards
 *TODO:* Now that the trace is running, let's add the metric to our current Grafana dashboard. Once this is completed, provide a screenshot of it here.
