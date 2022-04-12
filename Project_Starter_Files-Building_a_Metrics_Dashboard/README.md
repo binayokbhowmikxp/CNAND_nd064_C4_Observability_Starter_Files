@@ -54,6 +54,18 @@ We can use the below key indicators (specific) to measure SLI:
 ## Tracing our Flask App
 *TODO:*  We will create a Jaeger span to measure the processes on the backend. Once you fill in the span, provide a screenshot of it here. Also provide a (screenshot) sample Python file containing a trace and span code used to perform Jaeger traces on the backend service.
 
+![Screenshot 2022-04-12 at 5 09 04 PM](https://user-images.githubusercontent.com/40661295/163056227-c613bd99-b79d-485f-bbe0-fae0c03fba77.png)
+
+
+The same code is as below:
+
+@app.route("/")
+@endpoint_counter
+def homepage():
+     with tracer.start_active_span('home-page'):
+        answer = "Hello World"
+        return jsonify(response=answer) 
+
 ## Jaeger in Dashboards
 *TODO:* Now that the trace is running, let's add the metric to our current Grafana dashboard. Once this is completed, provide a screenshot of it here.
 
