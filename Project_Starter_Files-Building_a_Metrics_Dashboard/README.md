@@ -32,6 +32,22 @@ In this case, your SLI would be the actual measurement of the uptime. Perhaps du
 ## Creating SLI metrics.
 *TODO:* It is important to know why we want to measure certain metrics for our customer. Describe in detail 5 metrics to measure these SLIs. 
 
+Service is defined in terms of four core properties, called the Four Golden Signals:
+
+Latency — The time taken to serve a request (usually measured in ms).
+Traffic — The amount of stress on a system from demand (such as the number of HTTP requests/second).
+Errors — The number of requests that are failing (such as number of HTTP 500 responses).
+Saturation — The overall capacity of a service (such as the percentage of memory or CPU used).
+
+We can use the below key indicators (specific) to measure SLI:
+
+* Measure by response type and service: Flask HTTP requests status 200, 500, 400 (Errors)
+* Failed responses per second (Errors, Traffic, Saturation)
+* Uptime: frontend, trial, backend (Latency, Traffic, Saturation, Errors)
+* Pods health: Pods not ready (Latency / Errors)
+* Pods health: Pod restarts by namespace (Could be caused by any number of things : Errors in applications, traffic)
+* Average Response time (Latency, Traffic, Saturation)
+
 ## Create a Dashboard to measure our SLIs
 *TODO:* Create a dashboard to measure the uptime of the frontend and backend services We will also want to measure to measure 40x and 50x errors. Create a dashboard that show these values over a 24 hour period and take a screenshot.
 
