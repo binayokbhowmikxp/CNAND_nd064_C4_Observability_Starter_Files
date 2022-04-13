@@ -116,6 +116,11 @@ We need to focus on the below SLO:
 
 ## Final Dashboard
 *TODO*: Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.  
-![Screenshot 2022-04-13 at 11 47 54 AM](https://user-images.githubusercontent.com/40661295/163112573-e15c261b-38b0-49b0-b4c8-6fc85f64558d.png)
 
+![Screenshot 2022-04-14 at 12 17 16 AM](https://user-images.githubusercontent.com/40661295/163249508-c7e49923-de9b-481a-a722-0d7ebf150717.png)
+
+![Screenshot 2022-04-14 at 12 17 35 AM](https://user-images.githubusercontent.com/40661295/163249521-ee00e168-24c2-481f-8cb8-aa29a8d373fd.png)
+
+
+![Screenshot 2022-04-14 at 12 17 54 AM](https://user-images.githubusercontent.com/40661295/163249551-6d5d11da-cf6a-4085-bd4e-410e585d2b82.png)
 
