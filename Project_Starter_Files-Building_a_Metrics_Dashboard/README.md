@@ -80,17 +80,17 @@ The sample code is as below:
 
 TROUBLE TICKET
 
-Name: The backend service /star endpoint failed with "500 Internal Server Error"
+Name: Error on backend/app/app.py"
 
-Date: April 13 2022, 10:29:21.219
+Date: April 13 2022, 22:08:34.720
 
-Subject: backend microservice "500 Internal Server Error"
+Subject: cannot update backend data 
 
-Affected Area: backend service updation
+Affected Area:   File "/app/app.py", line 99, in add_star
 
-Severity: Critical
+Severity: High
 
-Description: The backend service /star endpoint failed with "500 Internal Server Error". Probale cause maybe the backend mongodb database is either down or unreachable
+Description: TypeError: There is an issue with the format of the POST data
 
 
 ## Creating SLIs and SLOs
