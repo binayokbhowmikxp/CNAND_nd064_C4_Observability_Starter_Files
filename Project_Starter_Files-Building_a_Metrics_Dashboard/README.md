@@ -104,6 +104,10 @@ We need to focus on the below SLO:
 ## Building KPIs for our plan
 *TODO*: Now that we have our SLIs and SLOs, create a list of 2-3 KPIs to accurately measure these metrics as well as a description of why those KPIs were chosen. We will make a dashboard for this, but first write them down here.
 
+Latency: Response time.
+Failure rate: Errors per second / response rate per second.
+Uptime: Sucessful requests during pod uptime.
+
 ## Final Dashboard
 *TODO*: Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.  
 ![Screenshot 2022-04-13 at 11 47 54 AM](https://user-images.githubusercontent.com/40661295/163112573-e15c261b-38b0-49b0-b4c8-6fc85f64558d.png)
