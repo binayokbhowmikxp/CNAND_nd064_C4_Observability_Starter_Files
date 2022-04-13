@@ -90,6 +90,12 @@ Description: The backend service /star endpoint failed with "500 Internal Server
 ## Creating SLIs and SLOs
 *TODO:* We want to create an SLO guaranteeing that our application has a 99.95% uptime per month. Name four SLIs that you would use to measure the success of this SLO.
 
+We need to focus on the below SLO:
+
+  * Latency
+  * Errors 
+  * Saturation
+
 ## Building KPIs for our plan
 *TODO*: Now that we have our SLIs and SLOs, create a list of 2-3 KPIs to accurately measure these metrics as well as a description of why those KPIs were chosen. We will make a dashboard for this, but first write them down here.
 
