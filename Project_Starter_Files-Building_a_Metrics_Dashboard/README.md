@@ -78,6 +78,9 @@ The sample code is as below:
 ## Report Error
 *TODO:* Using the template below, write a trouble ticket for the developers, to explain the errors that you are seeing (400, 500, latency) and to let them know the file that is causing the issue also include a screenshot of the tracer span to demonstrate how we can user a tracer to locate errors easily.
 
+![Screenshot 2022-04-13 at 10 18 24 PM](https://user-images.githubusercontent.com/40661295/163230575-8d1d031f-bc6c-4242-bb85-46e8138b7382.png)
+
+
 TROUBLE TICKET
 
 Name: Error on backend/app/app.py"
