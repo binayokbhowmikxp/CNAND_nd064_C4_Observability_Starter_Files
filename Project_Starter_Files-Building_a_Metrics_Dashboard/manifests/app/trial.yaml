@@ -9,7 +9,7 @@ metadata:
     prometheus.io/port: trialport
   labels:
     name: trial
-    release: prometheus
+    release: prometheustest
 spec:
   replicas: 1
   selector:
@@ -52,7 +52,7 @@ metadata:
   namespace: monitoring
   labels:
     app: trial
-    release: prometheus
+    release: prometheustest
 spec:
   selector:
     matchLabels:
