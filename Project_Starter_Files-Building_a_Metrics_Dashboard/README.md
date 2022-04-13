@@ -52,9 +52,10 @@ We can use the below key indicators (specific) to measure SLI:
 *TODO:* Create a dashboard to measure the uptime of the frontend and backend services We will also want to measure to measure 40x and 50x errors. Create a dashboard that show these values over a 24 hour period and take a screenshot.
 
 
+![Screenshot 2022-04-13 at 9 21 57 PM](https://user-images.githubusercontent.com/40661295/163221385-2af8ec4c-0caf-4a09-849f-144b0e26f492.png)
 
-![Screenshot 2022-04-13 at 12 00 18 PM](https://user-images.githubusercontent.com/40661295/163114618-c0fb4c20-5120-4751-a5b1-8590cf192ce4.png)
 
+![Screenshot 2022-04-13 at 9 22 21 PM](https://user-images.githubusercontent.com/40661295/163221662-3d12e790-355f-46e5-bbf9-a05ce36b4de5.png)
 
 ## Tracing our Flask App
 *TODO:*  We will create a Jaeger span to measure the processes on the backend. Once you fill in the span, provide a screenshot of it here. Also provide a (screenshot) sample Python file containing a trace and span code used to perform Jaeger traces on the backend service.
