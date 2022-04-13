@@ -101,16 +101,18 @@ Description: TypeError: There is an issue with the format of the POST data
 
 We need to focus on the below SLO:
 
-  * Latency
-  * Errors 
-  * Saturation
+* Latency: The response time of requests should less than 30ms within a month.
+* Failure rate: Ensure that the status code 2xx rates are around 97%.
+* Uptime: Uptime nedd to be approximate 99 percent within a month and response time should be around 500 milliseconds.
 
 ## Building KPIs for our plan
 *TODO*: Now that we have our SLIs and SLOs, create a list of 2-3 KPIs to accurately measure these metrics as well as a description of why those KPIs were chosen. We will make a dashboard for this, but first write them down here.
 
-Latency: Response time.
-Failure rate: Errors per second / response rate per second.
-Uptime: Sucessful requests during pod uptime.
+* Latency: Response time.
+* Failure rate: Errors per second / response rate per second.
+* Uptime: Sucessful requests during pod uptime.
+* Network capcity: successful request per second / request per second.
+* Resource capcity: CPU, RAM usage per pod.
 
 ## Final Dashboard
 *TODO*: Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.  
