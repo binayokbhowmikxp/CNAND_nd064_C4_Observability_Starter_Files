@@ -74,17 +74,17 @@ The sample code is as below:
 
 TROUBLE TICKET
 
-Name:
+Name: The backend service /star endpoint failed with "500 Internal Server Error"
 
-Date:
+Date: April 13 2022, 10:29:21.219
 
-Subject:
+Subject: backend microservice "500 Internal Server Error"
 
-Affected Area:
+Affected Area: backend service updation
 
-Severity:
+Severity: Critical
 
-Description:
+Description: The backend service /star endpoint failed with "500 Internal Server Error". Probale cause maybe the backend mongodb database is either down or unreachable
 
 
 ## Creating SLIs and SLOs
