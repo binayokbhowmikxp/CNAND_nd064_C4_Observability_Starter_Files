@@ -125,3 +125,13 @@ We need to focus on the below SLO:
 
 ![Screenshot 2022-04-14 at 12 17 54 AM](https://user-images.githubusercontent.com/40661295/163249551-6d5d11da-cf6a-4085-bd4e-410e585d2b82.png)
 
+
+* Average Response time (Latency): Average latency of the overall frontend and backend application 
+* Memory usage : Node memory usage
+* Failed responses per second:  To capture the failed response of the bothe flask application
+* Flask HTTP Request 5XX Code: To capture 5xx reponse code of frontend and backend application
+* Flask HTTP Request 5XX Code: To capture 4xx reponse code of frontend and backend application
+* Uptime (backend) : backend container uptime
+* Uptime (frontend) : frontend container uptime
+* CPU Usage : CPU usage over time
+* Pods health : Pod restarts by namespace
