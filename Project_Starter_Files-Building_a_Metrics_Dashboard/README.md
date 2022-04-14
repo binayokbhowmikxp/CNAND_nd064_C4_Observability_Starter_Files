@@ -103,7 +103,8 @@ We need to focus on the below SLO:
 
 * Latency: The response time of requests should less than 30ms within a month.
 * Failure rate: Ensure that the status code 2xx rates are around 97%.
-* Uptime: Uptime nedd to be approximate 99 percent within a month and response time should be around 500 milliseconds.
+* Uptime: Uptime need to be approximate 99 percent within a month and response time should be around 500 milliseconds.
+* Saturation: he overall capacity of a service (such as the percentage of memory or CPU used). CPU should be less than 90% within a month.
 
 ## Building KPIs for our plan
 *TODO*: Now that we have our SLIs and SLOs, create a list of 2-3 KPIs to accurately measure these metrics as well as a description of why those KPIs were chosen. We will make a dashboard for this, but first write them down here.
