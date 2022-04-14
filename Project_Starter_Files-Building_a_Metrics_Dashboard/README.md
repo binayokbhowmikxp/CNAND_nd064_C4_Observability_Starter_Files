@@ -109,11 +109,11 @@ We need to focus on the below SLO:
 ## Building KPIs for our plan
 *TODO*: Now that we have our SLIs and SLOs, create a list of 2-3 KPIs to accurately measure these metrics as well as a description of why those KPIs were chosen. We will make a dashboard for this, but first write them down here.
 
-* Latency: Response time.
-* Failure rate: Errors per second / response rate per second.
-* Uptime: Sucessful requests during pod uptime.
-* Network capcity: successful request per second / request per second.
-* Resource capcity: CPU, RAM usage per pod.
+* Latency: Response time. - Needed to measure how responsive the application are.
+* Failure rate: Errors per second / response rate per second. - It is important to understand what kind of errors are happening in the application. This can be done with Jaeger Tracing
+* Uptime: Sucessful requests during pod uptime. This is needed to measure availabilty of the pod itself.
+* Network capcity: successful request per second / request per second. To measure any network bottlenect 
+* Resource capcity: CPU, RAM usage per pod. . Needed to measure saturation
 
 ## Final Dashboard
 *TODO*: Create a Dashboard containing graphs that capture all the metrics of your KPIs and adequately representing your SLIs and SLOs. Include a screenshot of the dashboard here, and write a text description of what graphs are represented in the dashboard.  
